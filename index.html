@@ -2,75 +2,102 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Patitas al Rescate</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: "Poppins", Arial, sans-serif;
       margin: 0;
-      background: #fdfdfd;
-      color: #333;
-      text-align: center;
+      padding: 0;
+      background: #fff8f0;
+      color: #444;
     }
     header {
-      background: #4CAF50;
+      background: #ffb6b9;
       color: white;
-      padding: 20px;
+      padding: 30px;
+      text-align: center;
+      border-bottom: 5px solid #fcd5ce;
     }
-    h1 {
+    header h1 {
       margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
     }
     section {
-      padding: 20px;
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
     }
     .card {
-      background: white;
-      margin: 15px auto;
-      padding: 15px;
-      max-width: 500px;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      background: #ffffff;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card img {
+      max-width: 220px;
+      border-radius: 15px;
+      margin-bottom: 15px;
+    }
+    .card h2 {
+      color: #ffb6b9;
     }
     footer {
-      background: #333;
+      background: #ffb6b9;
       color: white;
-      padding: 10px;
-      margin-top: 20px;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
-
   <header>
-    <h1>🐾 Patitas al Rescate</h1>
-    <p>Incentivando el buen cuidado animal</p>
+    <h1>🐾 Patitas al Rescate 🐾</h1>
+    <p>Cuidemos juntos a los engreídos del hogar</p>
+    <nav>
+      <a href="#cuidados">Cuidados</a>
+      <a href="#alimentacion">Alimentación</a>
+      <a href="#salud">Salud</a>
+    </nav>
   </header>
 
-  <section>
-    <h2>Bienvenido</h2>
-    <p>Patitas al Rescate es una página web en donde incentivamos al buen cuidado animal,
-       dando consejos claves para un sano desarrollo de tu engreído del hogar.</p>
-
+  <section id="cuidados">
     <div class="card">
-      <h3>Consejo 1</h3>
-      <p>💧 Mantén siempre agua fresca disponible para tu mascota.</p>
+      <img src="https://placekitten.com/400/280" alt="Gatito lindo">
+      <h2>🐱 Consejos de Cuidado</h2>
+      <p>Los gatos y perros necesitan amor y compañía. Dedica tiempo para jugar con ellos, acariciarlos y darles seguridad.</p>
     </div>
+  </section>
 
+  <section id="alimentacion">
     <div class="card">
-      <h3>Consejo 2</h3>
-      <p>🏃‍♂️ Juega y ejercita a tu mascota todos los días para que sea feliz y saludable.</p>
+      <img src="https://placedog.net/400/280?id=99" alt="Perrito comiendo">
+      <h2>🥗 Alimentación Saludable</h2>
+      <p>Tanto perros como gatos deben tener comida balanceada y agua fresca. Evita darles comida chatarra o chocolate.</p>
     </div>
+  </section>
 
+  <section id="salud">
     <div class="card">
-      <h3>Consejo 3</h3>
-      <p>🍲 Dale una alimentación balanceada y adecuada a su edad.</p>
+      <img src="https://placekitten.com/401/280" alt="Gatito veterinario">
+      <h2>🩺 Salud y Bienestar</h2>
+      <p>Las visitas al veterinario son fundamentales. Mantén al día sus vacunas, desparasitaciones y chequeos de rutina.</p>
     </div>
   </section>
 
   <footer>
-    <p>📧 Contáctanos: patitasalrescate@gmail.com</p>
-    <p>&copy; 2025 Patitas al Rescate</p>
+    <p>© 2025 Patitas al Rescate - Todos los derechos reservados</p>
   </footer>
-
 </body>
 </html>
